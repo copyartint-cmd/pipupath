@@ -1,16 +1,3 @@
 export default function Home() {
-  return (
-    <main style={{
-      minHeight: "100vh",
-      background: "black",
-      color: "white",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      fontSize: "48px",
-      fontWeight: "bold"
-    }}>
-      PIPUPATH IS LIVE
-    </main>
-  );
+  return <h1>PIPUPATH IS LIVE</h1>;
 }
